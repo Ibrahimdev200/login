@@ -35,7 +35,7 @@ font-size: 62.5%;
 
 @media only  screen and (max-width:$small-bp){
     font-size: 40.5%;
-    
+
 
 }
 
@@ -63,6 +63,9 @@ background-color: var(--green--primary);
     flex-direction: column;
     text-align: center;
     padding: 5rem;
+    -webkit-box-shadow: 10px 10px 63px -26px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 63px -26px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 63px -26px rgba(0,0,0,0.75);
     
     @media only  screen and (max-width:$medium-bp){
         margin: 0 0;
